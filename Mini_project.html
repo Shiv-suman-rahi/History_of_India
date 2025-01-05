@@ -17,14 +17,16 @@
     <style>
         h1{
             font-family: "Permanent Marker", serif;
-            font-weight: 300px;  
+            font-weight: 30px;  
             text-align: center;
             word-spacing: 20px;
-            font-size: 60px;
-            background-image: linear-gradient(orange,rgb(221, 123, 2),white,rgb(1, 71, 1),darkgreen);
+            font-size: 55px;
+            background-image: linear-gradient(orange,rgb(224, 147, 4),orange,rgb(255, 140, 0),rgb(255, 255, 255),rgb(7, 151, 7),rgb(11, 203, 11),rgb(1, 162, 1),green);
             color: transparent;
             -webkit-background-clip: text;
-            text-shadow: 10px 10px 10px rgb(39, 30, 203) ;
+            
+            padding: 50px;
+            
         }
         header{
             background-image: linear-gradient(rgb(0, 0, 0),rgb(16, 133, 100),white);
@@ -33,9 +35,9 @@
             background-size: cover;
             margin-top: -8px;
             margin-left: -8px;
-            width: 110%;
-            margin-right: 50px;
-              padding: 50px;
+            width: 100%;
+            margin-right: -60px;
+              /* padding: 50px; */
               /* background-image: linear-gradient(black,grey); */
               
         }
@@ -46,6 +48,8 @@
         #d{grid-area: d1;}
         #e{grid-area: e1;}
         #f{grid-area: f1;}
+        #g{grid-area: g1;}
+        #h{grid-area: h1;}
         
 
         #container{
@@ -53,14 +57,17 @@
             display: grid;
             grid-template-areas: 'a1 b1 '
             'c1 d1 '
-            'e1 f1';
+            'e1 f1'
+            'g1 h1';
             margin-top: 20px;
             margin-left: 30px;
+         
             
             
         }
         #container > div:hover{
                  background-color: rgb(224, 234, 234);
+    
         }
        #container > div{
             
@@ -74,8 +81,10 @@
             height: 1000px;
             box-shadow: 10px 10px 10px rgb(194, 199, 90) ;
             width: 600px;
-            margin: 30px;
+            margin-left: 5px;
+            margin-bottom: 50px;
         }
+
         h2{
             margin-top: 15px;
             text-shadow: 10px 10px 10px;
@@ -84,23 +93,29 @@
         }
         body{
             
-            
-            background-color: rgb(236, 239, 233);
+            width: 100%;
+            background-color: rgb(215, 222, 209);
 
         }
         img{
             
             margin-top: -10px;
             margin-left: 3px;
-            height: 395px;
+            height: 397px;
             
         }
         main{
-            background-image: linear-gradient(rgb(207, 226, 210),rgb(193, 214, 231));
+            /* background-image: linear-gradient(rgb(207, 226, 210),rgb(193, 214, 231)); */
+            margin-left: 20px;
         }
         p{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 17px;
+            padding-left:20px;
+            padding-right: 20px;
+        }
+        strong{
+            margin-left: 5px;
         }
          a{
             text-decoration: none;
@@ -123,14 +138,14 @@
          footer{
             margin-top: -8px;
             margin-left: -8px;
-            width: 110%;
-            margin-right: 50px;
+            width: 100%;
+            /* margin-right: 50px; */
             height: 300px;
             background-color: rgb(3, 41, 41);
             
 
          }
-         
+    
 
          
     </style>
@@ -249,7 +264,7 @@
                 <a href="https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri">Learn More</a>
             </nav>
          </div>
-         <div>
+         <div id="g">
             <h2>
                 # Lotus Temple
             </h2>
@@ -265,7 +280,7 @@
             </nav>
 
          </div>
-         <div>
+         <div id="h">
             <h2>
                 #Qutub Minar
             </h2>
