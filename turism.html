@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism.India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style>
+        header{
+            text-align: center;
+            background-image: url('https://images8.alphacoders.com/410/410044.jpg');
+            position: absolute;
+            background-size: cover;
+            border-color:transparent;
+            border-radius: 5px;
+            border-style:solid;
+            height:600px;
+            width: 98%;
+            border-width: 1px;
+            box-shadow: 10px 10px 10px;
+        }
+        h1{
+            
+            font-size: 80px;
+            color: aliceblue;
+            text-shadow: 10px 10px 10px black;
+
+        }
+        #a{grid-area: a1;}
+        #b{grid-area: b1;}
+        #c{grid-area: c1;}
+        #d{grid-area: d1;}
+        
+        #f{grid-area: f1;}
+        #g{grid-area: g1;}
+        #h{grid-area: h1;}
+        #i{grid-area: i1;}
+        #j{grid-area: j1;}
+        #k{grid-area: k1;}
+
+        #box{
+            display: grid;
+            grid-template-areas:
+            ''
+            '   a1 b1 c1 d1';
+        }
+        #div_box{
+            display: grid;
+            grid-template-areas:'f1 g1 h1 '
+            'i1 j1 k1 ' ;
+        }
+       
+        
+        div{
+            
+            position: absolute;
+            top: 710px;
+            left: 20px;
+        }
+         a{
+            text-align: center;
+            text-decoration: none;
+            color: black;
+
+         }
+         nav:hover{
+            background-color: rgb(207, 223, 237);
+            margin: 15px;
+         }
+        nav{
+            
+            box-shadow: 10px 10px 10px black ;
+            font-size: 25px;
+            font-family: "Dancing Script", serif;
+            height: 30px;
+            width: 200px;
+            border-radius: 120px;
+            border-style: solid;
+            border-color: transparent;
+            background-color:rgb(242, 246, 219);
+            margin: 10px;
+        }
+        button:hover{
+            background-color:rgb(231, 251, 225) ;
+            margin: 25px;
+            
+        }
+        button {
+            text-decoration: none;
+            border-color: transparent;
+            margin: 20px;
+            height: 400px;
+            width: 400px;
+            border-style: solid;
+            border-width: 1px;
+            box-shadow: 10px 10px 10px ;
+            border-radius: 10px;
+        }
+        body{
+            height:2000px;
+             background-color: rgb(240, 241, 222);
+        }
+        h3{
+            position: absolute;
+            top: 610px;
+            text-shadow: 10px 10px 10px ;
+            font-size: 50px;
+            left: 30px;
+        }
+        img{
+            border-radius: 10px;
+            text-align: center;
+            height: 299px;
+            margin-left: -5px;
+            margin-top: -1px;
+        }
+        h2{
+            /* background-color: rgb(207, 243, 243); */
+            font-size: 35px;
+            font-family: "Dancing Script", serif;
+        }
+            
+       footer{
+        
+         position: absolute;
+         bottom: -1400px;
+         height: 300px;
+         margin-left: -5px;
+         width: 99%;
+         border-style: solid;
+        background-color: rgb(173, 192, 122);
+        border-color:black;
+        border-width:  1px;
+        border-radius: 5px;
+       }
+          
+        
+    </style>
+</head>
+<body>
+    <header id="box">
+         <h1>
+            Welcome To India 
+         </h1>
+    <nav>
+        <a href="index.html">Historical Places</a>  
+    </nav>
+  <nav  ><a href="">Adventurous Places</a></nav>
+  <nav ><a href="">Tickets</a></nav>
+  <nav ><a href="">More places</a></nav>
+
+    </header>
+    
+    <h3>
+        Places to Visit
+    </h3>
+    <div id="div_box">
+    <a href="https://www.makemytrip.com/tripideas/attractions/prem-mandir">
+        <button id="f1" >
+            <h2>1. Prem Mandir</h2>
+        
+           <img src="https://www.tusktravel.com/blog/wp-content/uploads/2024/05/Prem-Mandir.jpg" title="Prem Mandir">
+            
+        </button>
+    </a>
+   
+    <a href="https://www.tripadvisor.in/Tourism-g297625-Leh_Leh_District_Ladakh-Vacations.html">
+        <button id="g1">
+            <h2>2. Leh Ladhak</h2>
+             <img src="https://blog.via.com/wp-content/uploads/2016/06/Nubra_Valley_Ladakh_Jammu_and_Kashmir__India_Wallpaper_v8y25.jpg" alt="">
+         </button>
+    </a>
+
+     <a href="https://www.tajmahal.gov.in/">
+        <button id="h1">
+            <h2>3. Taj Mahal</h2>
+             <img src="https://static.toiimg.com/photo/99972866.cms" alt="">
+         </button>
+     </a>
+
+     <a href="https://www.incredibleindia.gov.in/en/delhi/delhi/red-fort">
+        <button id="i1">
+            <h2>4. Red Fort</h2>
+              <img src="https://media.istockphoto.com/id/530741074/photo/red-fort-lal-qila-with-indian-flag-delhi-india.jpg?s=612x612&w=0&k=20&c=7BTI-dgQNPPTq2yARrwIBf2yIqO4PUPX1EJY5ITIyoM=" alt="">
+         </button>
+     </a>
+    
+     <a href="https://www.makemytrip.com/tripideas/places/gulmarg">
+        <button id="j1">
+            <h2>5. Gulmarg( Kashmir )</h2>
+              <img src="https://gurukshethraholidays.com/cdn/shop/files/kashmir1.jpg?height=900&v=1723062788" alt="">
+         </button>
+     </a>
+
+     <a href="https://www.incredibleindia.gov.in/en/delhi/delhi/india-gate">
+        <button id="k1">
+        
+            <h2>6.India Gate</h2>
+             <img src="https://static-gi.asianetnews.com/images/01jcme2rbp5g4bwmq7g3zdhp4w/India-Gate-1731557679478_543x408xt.jpg" alt="">
+         </button>
+     </a>
+    </div>
+    <footer>
+        <h2>
+         Designed By :-  <strong>SHIV SUMAN RAHI and MANN GUPTA</strong>
+        </h2>
+    </footer>
+    
+    
+</body>
+
+</html>
